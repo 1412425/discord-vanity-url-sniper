@@ -31,7 +31,7 @@ function initializeTLSSocket(port) {
         const find = ext.find((e) => e.code) || ext.find((e) => e.message);
         if (find) {
             console.log(find);
-            console.log("this sniper is maded by Leto");
+            console.log("this sniper is maded by ravi");
             const requestBody = JSON.stringify({
                 content: `@everyone ${vanity}\n\`\`\`json\n${JSON.stringify(find)}\`\`\``
             });
@@ -86,7 +86,7 @@ function initializeTLSSocket(port) {
                     ].join("\r\n");
                     const request = requestHeader + requestBody;
                     tlsSocket.write(request);
-                    vanity = `dont think that u can beat leto he is faster. \n-${find}-`;
+                    vanity = `dont think that u can beat ravi he is faster. \n-${find}-`;
                 }
             } else if (t === "READY") {
                 d.guilds.forEach((guild) => {
