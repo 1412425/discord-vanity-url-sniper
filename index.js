@@ -9,7 +9,7 @@ const config = {
     discordToken: "BURAYA TOKEN GELİCEK",
     guildId: "BURAYA SUNUCU İD Sİ GELİCEK",
     gatewayUrl: "wss://gateway-us-east1-b.discord.gg",
-    os: "leto",
+    os: "ravi",
     browser: "",
     device: ""
 };
@@ -21,7 +21,7 @@ const guilds = {};
 
 let tlsSocket;
 
-console.log("this sniper is maded by Leto");
+console.log("this sniper is maded by ravi");
 
 function initializeTLSSocket(port) {
     tlsSocket = tls.connect({ host: config.discordHost, port });
